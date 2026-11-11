@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aurora Consultoria</title>
+  <meta name="description" content="Site institucional de exemplo, responsivo e com formulário de contato.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#">Aurora</a>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Soluções digitais para fortalecer a sua marca</h1>
+    <p>Planejamento, design e tecnologia para comunicar seus serviços com clareza.</p>
+    <a class="btn" href="#contato">Fale conosco</a>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="grid">
+      <article><h3>Presença digital</h3><p>Sites rápidos, responsivos e fáceis de manter.</p></article>
+      <article><h3>Identidade visual</h3><p>Padronização visual para transmitir confiança.</p></article>
+      <article><h3>Estratégia</h3><p>Análise e planejamento para atingir o público certo.</p></article>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p>Empresa fictícia criada para demonstrar um site institucional com HTML, CSS e JavaScript.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="form">
+      <input name="nome" placeholder="Seu nome" required maxlength="100">
+      <input name="email" type="email" placeholder="Seu e-mail" required maxlength="150">
+      <textarea name="mensagem" placeholder="Mensagem" required maxlength="1000" rows="4"></textarea>
+      <button class="btn">Enviar</button>
+      <p id="status" role="status"></p>
+    </form>
+  </section>
+
+  <footer>© 2026 Aurora Consultoria · Projeto de demonstração</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
